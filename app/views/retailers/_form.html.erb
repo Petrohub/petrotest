@@ -1,0 +1,13 @@
+<%= simple_form_for(retailer) do |f| %>
+ <%= f.input :first_name %>
+ <%= f.input :last_name %>
+ <%= f.input :business_name %>
+ <%= f.input :address1 %>
+ <%= f.input :address2 %>
+ <%= f.input :tax_id %>
+ <%= f.input :phone_number %>
+ <%= f.input :cell_phone_number %>
+ <%= f.input :no_of_gas_stations %>
+ <%= f.input :years_in_business %>
+<%= f.button :submit, class: "btn-primary" %>
+  <%end%>
